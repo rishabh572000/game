@@ -10,42 +10,42 @@ const TrandingSwiperData =[
     id: 1,
     img1:image22,
     img2: image22_1,
-    head: 'FriYaywiz',
+    head: 'FriYay',
     para: 'A lagy of light and shade, chairoscuro is the realm'
 },
 {
     id: 2,
     img1:image23,
     img2: image23_1,
-    head: 'FriYaywiz',
+    head: 'FriYay',
     para: 'A lagy of light and shade, chairoscuro is the realm'
 },
 {
     id: 3,
     img1:image24,
     img2: image24_1,
-    head: 'FriYaywiz',
+    head: 'FriYay',
     para: 'A lagy of light and shade, chairoscuro is the realm'
 },
 {
     id: 4,
     img1:image22,
     img2: image22_1,
-    head: 'FriYaywiz',
+    head: 'FriYay',
     para: 'A lagy of light and shade, chairoscuro is the realm'
 },
 {
     id: 5,
     img1:image23,
     img2: image23_1,
-    head: 'FriYaywiz',
+    head: 'FriYay',
     para: 'A lagy of light and shade, chairoscuro is the realm'
 },
 {
     id: 6,
     img1:image24,
     img2: image24_1,
-    head: 'FriYaywiz',
+    head: 'FriYay',
     para: 'A lagy of light and shade, chairoscuro is the realm'
 },
 ];

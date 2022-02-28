@@ -2,11 +2,24 @@ import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiFillCreditCard } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import './componants/Header.css';
 import Header_image from './images/image.png';
 import Button from './componants/Button';
 
 const Header = () =>{
+
+const sidebar = () =>{
+    var sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('active');
+}
+const sidebar_remove = () =>{
+  var sidebar = document.querySelector('.sidebar');
+  sidebar.classList.toggle('active');
+}
+
+
+
 return(
 <>
 <div className="header">
@@ -18,7 +31,7 @@ return(
         <p id='search'><AiOutlineSearch /></p>
         <input type='text' placeholder='Search' />
         <p><AiFillCreditCard /></p>
-        <p id="menu"><AiOutlineMenu /></p>
+        <p id="menu" onClick={sidebar}><AiOutlineMenu /></p>
     </div>
   </div>
   <div className="header_body">
@@ -48,6 +61,13 @@ return(
              border='1.5px solid #FFFFFF'/>
       </div>
   </div>
+</div>
+<div className="sidebar">
+  <AiOutlineClose id='cross' onClick={sidebar_remove}/>
+  <p>Home</p>
+  <p>About</p>
+  <p>Service</p>
+  <p>Career</p>
 </div>
 </>
 )

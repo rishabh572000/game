@@ -43,7 +43,6 @@
 .cards_group .sellcard{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.6) 100%);
     backdrop-filter: blur(81px);
-    border-radius: 8px;
     width: 275px;
     height: 327px;
     border: 1px solid transparent;
@@ -53,6 +52,13 @@
     flex-direction: column;
     align-items: center;
     margin: 21px;
+    transition: 0.5s;
+}
+.cards_group .sellcard:hover{
+    margin-top: -30px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(180deg, #29ff15, #f706f7be);
+    border-image-slice: 1;
 }
 .cards_group .sellcard h2{
     color: #263F9B;

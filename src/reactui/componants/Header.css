@@ -10,7 +10,11 @@
     box-sizing: border-box;
 }
 body{
-    background: #F4FAFF;
+    background-color: #F4FAFF;
+    background: url(../images/image6.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .header{
     width: 100%;
@@ -161,7 +165,40 @@ body{
     color: #fff;
     cursor: pointer;
 }
-
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 15;
+    width: 70%;
+    height: 100vh;
+    background-color: #f4faffa8;
+    color: #458DEA;
+    text-align: center;
+    display: none;
+    transition: 0.5s;
+}
+.sidebar.active{
+    display: block;
+}
+.sidebar p{
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.sidebar #cross{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: #000;
+}
+.sidebar #cross:hover{
+    transform: rotate(180deg);
+    color: red;
+}
 
 @media (max-width:991px){
 
@@ -209,6 +246,7 @@ body{
   }
   .header .header_body .left .head_left_btn .button{
       margin-bottom: 30px;
+      margin-right: 0;
       width: 162px;
   }
   .header .header_body .right{
