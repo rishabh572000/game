@@ -1,0 +1,90 @@
+.create{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create .main_create{
+    width: 90%;
+    background: linear-gradient(180deg, rgba(192, 197, 207, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(120px);
+    text-align: center;
+    margin-top: -8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 176px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(-70deg, #C0C5CF, #FFFFFF);
+    border-image-slice: 1;
+}
+.create .main_create h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 52px;
+    color: #263F9B;
+}
+.create .main_create p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    padding-top: 24px;
+    width: 395px;
+}
+.cards_group{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards_group .sellcard{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.6) 100%);
+    backdrop-filter: blur(81px);
+    border-radius: 8px;
+    width: 275px;
+    height: 327px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(180deg, #458DEA, #458dea36);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 21px;
+}
+.cards_group .sellcard h2{
+    color: #263F9B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: 32px;
+    margin-top: 0px;
+}
+.cards_group .sellcard p{
+    width: 231px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #232323;
+}
+
+
+
+@media (max-width:991px){
+    .create .main_create p{
+        width: 80%;
+
+    }
+
+
+
+
+
+
+
+
+
+}
