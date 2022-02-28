@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/game/static/css/main.558d6fb3.css",
-    "main.js": "/game/static/js/main.41769278.js",
+    "main.css": "/game/static/css/main.e1237837.css",
+    "main.js": "/game/static/js/main.affbee44.js",
     "static/js/787.40842ade.chunk.js": "/game/static/js/787.40842ade.chunk.js",
+    "static/media/image6.png": "/game/static/media/image6.da0e56607e8a82c3ead6.png",
     "static/media/image7.png": "/game/static/media/image7.5f186f392e976d58adbb.png",
     "static/media/image22.png": "/game/static/media/image22.31f85b55c15ac2c1e637.png",
     "static/media/image23.png": "/game/static/media/image23.0e6f39c97fd518dd221f.png",
@@ -30,12 +31,12 @@
     "static/media/image27.png": "/game/static/media/image27.3752ee72218f038e5167.png",
     "static/media/image9.png": "/game/static/media/image9.7593d10683fabb7eaeed.png",
     "index.html": "/game/index.html",
-    "main.558d6fb3.css.map": "/game/static/css/main.558d6fb3.css.map",
-    "main.41769278.js.map": "/game/static/js/main.41769278.js.map",
+    "main.e1237837.css.map": "/game/static/css/main.e1237837.css.map",
+    "main.affbee44.js.map": "/game/static/js/main.affbee44.js.map",
     "787.40842ade.chunk.js.map": "/game/static/js/787.40842ade.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.558d6fb3.css",
-    "static/js/main.41769278.js"
+    "static/css/main.e1237837.css",
+    "static/js/main.affbee44.js"
   ]
 }
