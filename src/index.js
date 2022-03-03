@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 // import App from './Infilon/App';
-import App from './reactui/App';
+//  import App from './reactui/App';
+// import App from './News/App';
+import App from './Laiqa/App';
 
 ReactDOM.render(
   <React.StrictMode>
