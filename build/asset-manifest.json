@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/LAIQA/static/css/main.5344a220.css",
-    "main.js": "/LAIQA/static/js/main.4c0c5a34.js",
+    "main.js": "/LAIQA/static/js/main.5823ce1c.js",
     "static/js/787.40842ade.chunk.js": "/LAIQA/static/js/787.40842ade.chunk.js",
-    "static/media/laiqa.jpg": "/LAIQA/static/media/laiqa.a9ffbaa2f3eb872f9adb.jpg",
     "index.html": "/LAIQA/index.html",
-    "main.5344a220.css.map": "/LAIQA/static/css/main.5344a220.css.map",
-    "main.4c0c5a34.js.map": "/LAIQA/static/js/main.4c0c5a34.js.map",
+    "main.5823ce1c.js.map": "/LAIQA/static/js/main.5823ce1c.js.map",
     "787.40842ade.chunk.js.map": "/LAIQA/static/js/787.40842ade.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5344a220.css",
-    "static/js/main.4c0c5a34.js"
+    "static/js/main.5823ce1c.js"
   ]
 }

@@ -1,492 +1,54 @@
-[
-    {
-        ": "h"id": 1,
-        "name": "Margherita",
-        "description": "A classic delight with 100% Real mozzarella cheese",
-        "isVeg": true,
-        "rating": 3.5,
-        "price": 239,
-        "img_urlttps://upload.wikimedia.org/wikipedia/commons/6/6f/Pizza_on_stone.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Double Cheese Margherita",
-        "description": "A classic delight loaded with extra 100% real mozzarella cheese",
-        "isVeg": true,
-        "rating": 5,
-        "price": 375,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": true,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Pepper Barbecue & Onion",
-        "description": "A classic favorite with pepper barbeque chicken & onion",
-        "isVeg": false,
-        "rating": 4.5,
-        "price": 435,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Cheese n Tomato",
-        "description": "A delectable combination of cheese and juicy tomato",
-        "isVeg": true,
-        "rating": 3.5,
-        "price": 345,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pizza_on_stone.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Cheese n Corn",
-        "description": "Sweet & Juicy Golden corn and 100% real mozzarella cheese in a delectable combination !",
-        "isVeg": true,
-        "rating": 5,
-        "price": 345,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": true,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Achari Do Pyaza",
-        "description": "Tangy & spicy achari flavors on a super cheesy onion pizza- as desi as it gets!",
-        "isVeg": true,
-        "rating": 4,
-        "price": 345,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Chicken Golden Delight",
-        "description": "Double pepper barbecue chicken, golden corn and extra cheese, true delight",
-        "isVeg": false,
-        "rating": 4.5,
-        "price": 490,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pizza_on_stone.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Chicken Fiesta",
-        "description": "Grilled chicken rashers, peri-peri chicken, onion & capsicum, a complete fiesta",
-        "isVeg": false,
-        "rating": 4,
-        "price": 490,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "name": "Pepper Barbecue Chicken",
-        "description": "Pepper barbecue chicken for that extra zing",
-        "isVeg": false,
-        "rating": 3.5,
-        "price": "375",
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": false,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 10,
-        "name": "Veggie Paradise",
-        "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
-        "isVeg": true,
-        "rating": 5,
-        "price": 435,
-        "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pizza_on_stone.jpg",
-        "size": [
-            {
-                "isRadio": true,
-                "title": "choose size",
-                "items": [
-                    {
-                        "size": "Regular"
-                    },
-                    {
-                        "size": "Medium"
-                    },
-                    {
-                        "size": "Large"
-                    }
-                ]
-            }
-        ],
-        "toppings": [
-            {
-                "isRadio": true,
-                "title": "choose topping(s)",
-                "items": [
-                    {
-                        "name": "Red Pepper"
-                    },
-                    {
-                        "name": "Onion"
-                    },
-                    {
-                        "name": "Grilled Mushroom"
-                    },
-                    {
-                        "name": "Extra Cheese"
-                    },
-                    {
-                        "name": "Black Olive"
-                    }
-                ]
-            }
-        ]
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
     }
-]
+}
