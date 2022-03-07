@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import App from './infilion/App';
-//  import App from './reactui/App';
+// import App from './infilion/App';
+ import App from './reactui/App';
 // import App from './News/App';
 // import App from './Laiqa/App';
 
